@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ios应用安装</title>
+    <style>
+        .row {
+            text-align: left;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body style="text-align: center;">
+    <br>
+    <h1>ios应用安装</h1>
+
+    <br>
+    <div>
+        <a href="./CA.cer">先点我，下载CA证书</a>
+    </div>
+
+    <br>
+    <br>
+    <div>
+        <img src="./icon.png" alt="" style="border-radius: 4px;">
+        <div>
+            <a href="itms-services://?action=download-manifest&url=https://192.168.51.73/manifest.plist">然后点我安装</a>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <div>
+        <h2>常见问题</h2>
+        <div class="row">问题：无法连接到 "xx.xx.xx.xx"</div>
+        <div class="row">解决：【设置 > 通用 > 关于本机 > 证书信任设置】勾选信任</div>
+        <br>
+        <div class="row">问题：未受信任的企业级开发者</div>
+        <div class="row">解决：【设置 > 通用 > 描述文件与设备管理】添加到信任</div>
+    </div>
+</body>
+
+</html>
